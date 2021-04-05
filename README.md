@@ -14,10 +14,10 @@ $ dmenu_run or dmenu_run_history
 ```
 dmenu_run_history will use a script to preselect your recently launched applications
 
-## Patches applied
+## Patches that are already applied
 
 ### dmenu-xyw-5.0.diff
-Allows you to control position in size of dmenu.
+Allows you to control position and size of dmenu.
 Adds -z for length and -x -y for position as an option.
 If -b is passed -x and -y will be computed from the bottom.
 
