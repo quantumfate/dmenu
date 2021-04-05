@@ -12,4 +12,4 @@ $ sudo make install
 ```
 $ dmenu_run or dmenu_run_history
 ```
-###### dmenu_run_history will use a script to preselect your recently launched applications
+dmenu_run_history will use a script to preselect your recently launched applications
