@@ -26,7 +26,7 @@
 #define TEXTW(X)              (drw_fontset_getwidth(drw, (X)) + lrpad)
 
 /* enums */
-enum { SchemeNorm, SchemeSel, SchemeOut, SchemeNormHighlight, SchemeSelHighlight, SchemeLast, SchemeHp }; /* color schemes */
+enum { SchemeNorm, SchemeSel, SchemeHp ,SchemeOut, SchemeNormHighlight, SchemeSelHighlight, SchemeLast }; /* color schemes */
 
 struct item {
 	char *text;

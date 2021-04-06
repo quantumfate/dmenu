@@ -14,6 +14,12 @@ $ dmenu_run or dmenu_run_history
 ```
 dmenu_run_history will use a script to preselect your recently launched applications
 
+I personally run
+```bash
+$ dmenu_run_history -i -z 2555 -h 23 -x 0 -y 0 -hp brave,discord,spotify,gyazo,anki -hb "#5A4785" -hf "#dbceea"
+```
+to make my dmenu look like in the image above.
+
 ## Patches that are already applied
 
 ### dmenu-xyw-5.0.diff
@@ -31,7 +37,9 @@ Adds a -h option that allows you to controll lineheight.
 Highlights input in search results.
 
 ### dmenu-highpriority-4.9.diff
-High priority items will show up first.
+Adds -hp <itemlist> as an option for dmenu. Seperate itemlis with comma. 
+It also adds -hb (Background color) and and -hf (Foreground color) as an option.
+It Expects HTML Color names or groups as an argument. You can also pass hex in quotations.
 
 # Adjustments
 Color scheme and other parameters can be adjusted in config.h.
