@@ -1,6 +1,6 @@
 # The preview of my patched dmenu
 
-![alt text](https://github.com/quantumfate/dmenu/blob/ce90e082aa23a25a827b382c5ceeb3998ae37a98/dmenu.png?raw=true)
+![alt text](https://github.com/quantumfate/dmenu/blob/47c3f3c5d44f6ca23d5a1b39202d79ddddb1aed8/dmenu.png)
 
 # Installation
 ```
